@@ -3,7 +3,7 @@ Secondary Index Repository
 
 All production secondary index related components (code, design, documentation) live here.
 
-###Setup and Build Instructions
+### Setup and Build Instructions
 
     $ mkdir -p $GOPATH/src/github.com/couchbase
     $ cd $GOPATH/src/github.com/couchbase
@@ -19,7 +19,7 @@ Following dependencies need to be installed beforehand:
 
 If build is successful, indexing/secondary/bin will have the binaries for projector and indexer.
 
-####Starting Projector
+#### Starting Projector
 
 Projector can be started with below command line options:
 
@@ -39,7 +39,7 @@ Projector has a sample test program which can be run using:
 
     go run tools/datapath.go
 
-####Starting Indexer
+#### Starting Indexer
 
 Projector can be started with below command line options:
 
